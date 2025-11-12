@@ -1,0 +1,1192 @@
+/*RESET*/
+body,p,h1,h2,h3,h4,h5,h6,figure {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+/*GERAL*/
+body{
+    font-family: "PT Serif", serif;
+    background-color:#004071;
+}
+
+/*HEADER*/
+
+.top-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 70px;
+    width: 100%; 
+}
+
+.menu a{
+    margin-right: 40px;
+    color: #ffff;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.icon img{
+    width: 20%;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.imagem{
+    margin-right: 20px;
+}
+
+.icon img:hover{
+    width: 23%;
+}
+
+/*FIRST PAGE*/
+
+.firstpage{
+    background: linear-gradient(#004071, #0961A5);
+    width: 100%;
+}
+
+
+.pagina1{
+    display: flex;
+    flex-direction: row;
+}
+
+.apresentação{
+    padding-left: 70px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.apresentação img{
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.apresentação h2{
+    color: #ffff;
+    font-size: 73px;
+    margin-top: 47px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.apresentação h3{
+    color: #ffff;
+    font-size: 34px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.capa img{
+
+}
+
+/*SECOND PAGE*/
+
+.linha{
+   margin-top: 0px;
+   padding: 0px;
+   text-align: center; 
+}
+
+.linha img{
+    width: 100%;
+    display: block;
+
+}
+
+.pagina2 {
+    background-color: #ffff;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 370px;
+}
+
+.pagina2v {
+    background-color: #ffff;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    min-height: 200px;
+}
+
+.pagina2v1 {
+    background-color: #ffff;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 35px;
+    min-height: 200px;
+}
+
+.titles h2{
+    text-align: center;
+    color: #004173;
+    font-size: 63px;
+    margin-top: 40px;
+
+}
+    
+.titles h3{
+    text-align: center;
+    color: #004173;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.comida{
+    position: absolute;
+    top: 40%;
+    left: 115%;
+    animation: comida 10s infinite linear;
+    display: flex;
+    margin-top: 50px;
+}
+
+@keyframes comida{
+    from{left: 115%;}
+    to{left: 25%;}
+}
+
+.comida0{
+    text-align: center;
+    margin-left: 40px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.comida0:hover{
+    opacity: 70%;
+}
+
+.comida0 p{
+   margin-top: 20px;
+}
+
+
+.comidav{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    animation: comidav 10s infinite linear;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+@keyframes comidav{
+    from{left: 0;}
+    to{left: -90%;}
+}
+
+.comidav0{
+    text-align: center;
+    margin-left: 40px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.comidav0:hover{
+    opacity: 70%;
+}
+
+.comidav0 p{
+   margin-top: 20px;
+}
+
+.nutrientes{
+    margin-top: 98px;
+    position: absolute;
+    display: flex;
+    animation: nutrientes 10s infinite linear;
+    right: 0%;
+}
+
+@keyframes nutrientes{
+    from{right: 0%;}
+    to{right:-90%}
+}
+
+.nutrientes0{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientes0:hover{
+    opacity: 70%;
+}
+
+.nutrientesv{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 21px;
+    font-weight: bold;
+    display: flex;
+    animation: nutrientesv 10s infinite linear;
+    right: 10%;
+}
+
+@keyframes nutrientesv{
+    from{right: 10%;}
+    to{right:-80%;}
+}
+
+.nutrientesv0{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesv0:hover{
+    opacity: 70%;
+}
+
+.nutrientesp{
+    margin-top: 98px;
+    display: flex;
+    position: absolute;
+    animation: nutrientesp 10s infinite linear;
+    right: 100%;
+}
+
+@keyframes nutrientesp{
+    from{right: 200%;}
+    to{right: 110%;}
+}
+
+.nutrientesp0{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesp0:hover{
+    opacity: 70%;
+}
+
+.nutrientesb{
+    margin-top: 10px;
+    position: absolute;
+
+    font-size: 21px;
+    font-weight: bold;
+    display: flex;
+    animation: nutrientesb 10s infinite linear;
+    right: 110%;
+}
+
+@keyframes nutrientesb{
+    from{right: 210%;}
+    to{right: 120%;}
+}
+
+.nutrientesb0{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesb0:hover{
+    opacity: 70%;
+}
+
+
+.separador{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.separador img{
+    width: 100%;
+    display:block;
+}
+
+/*THIRD PAGE*/
+
+.pagina3{
+    padding: 40px;
+    background: linear-gradient(#118D6E, #036B51);
+    width: 100%;
+    overflow: hidden;
+}
+
+.landingpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.text{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.text h2{
+    font-size: 90px;
+    color: #ffff;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.text h5{
+    font-size: 90px;
+    color: #ffff;
+}
+
+.text img{
+
+}
+
+.text h3{
+    font-size: 32px;
+    color: #ffff;
+    margin-top: 40px;
+}
+
+.text h6{
+    font-size: 30px;
+    color: #ffff;
+}
+
+.text p{
+    font-size: 22px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.text h4{
+    font-size: 30px;
+    color: #ffff;
+    margin-top: 60px;
+    font-style: italic;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #AE759F, #8D597F);
+    text-align: center;
+    padding: 30px 1px 30px 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+h4 :hover{
+    font-size: 40px;
+    text-decoration: underline;
+    opacity: 60%;
+}
+
+.pack{
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.pack img{
+    width: 676px;
+}
+
+
+/*FOURTH PAGE*/
+
+.pagina4{
+    background: linear-gradient(#AF4893, #AB739C);
+    padding: 40px;
+    height: 1000px;
+}
+
+.pagina4 h3{
+    color:#ffff;
+    margin-left: 40px;
+    font-size: 65px;
+
+}
+
+.pagina4v{
+    position: relative;
+    min-height: 385px;
+    padding-top: 50px;
+}
+
+.opinioes{
+    display:flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioes img{
+    border-radius: 60px;
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 350px;
+}
+
+.opinioes1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioes1 img{
+    border-radius: 60px;
+    margin-left: 65px;
+    margin-right: 65px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0%;
+    width: 350px;
+}
+
+.opinioes1 :hover{
+    opacity: 100%;
+}
+
+.pagina4v1{
+    margin-top: 80px;
+    position: relative;
+}
+
+.opinioesv{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioesv img{
+    border-radius: 60px;
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 350px;
+}
+
+.opinioesv1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioesv1 img{
+    border-radius: 60px;
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 350px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0%;
+}
+
+.opinioesv1 :hover{
+    opacity: 100%;
+}
+
+/*FIFTH PAGE / FOOTER */
+
+.pagina5{
+    padding: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.marca{
+    margin-left: 30px;
+}
+
+.marca h3{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.marca p{
+    color:#ffff;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.socials img{
+    width: 50px;
+    margin-left: 40px;
+}
+
+@media all and (max-width:480px){
+
+html, body {
+    overflow-x: hidden;
+}
+
+.top-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    width: 100vw; 
+    height: auto;
+}
+
+.menu a{
+    margin-right: 5px;
+    color: #ffff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    min-width: max-content;
+}
+
+.menu{
+    margin-right: 80px;
+    width: 90%;
+}
+
+.icon{
+    width: 40%;
+}
+
+.icon img{
+    width: 20%;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.imagem{
+    margin-right: 13px;
+}
+
+.icon img:hover{
+    width: 23%;
+}
+
+/*FIRST PAGE*/
+
+.firstpage{
+    background: linear-gradient(#004071, #0961A5);
+    width: 100vw; 
+    height: auto;
+}
+
+
+.pagina1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 480px;
+    overflow: hidden;
+}
+
+.apresentação{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
+.apresentação img{
+    width: 29%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+.apresentação h2{
+    color: #ffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+.apresentação h3{
+    color: #ffff;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.capa img{
+    width: 270px;
+    margin-top: 30px;
+}
+
+/*SECOND PAGE*/
+
+.linha{
+   margin-top: 0px;
+   padding: 0px;
+   text-align: center; 
+}
+
+.linha img{
+    width: 100%;
+    display: block;
+}
+
+.pagina2 {
+    background-color: #ffff;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 160px;
+    width: 100vw; 
+    height: auto;
+}
+
+.pagina2v {
+    background-color: #ffff;
+    overflow: hidden;
+    position: relative;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    min-height: 67px;
+    width: 100vw; 
+    height: auto;
+}
+
+.pagina2v1 {
+    background-color: #ffff;
+    overflow: hidden;
+    position: relative;
+    padding-top: 11px;
+    min-height: 67px;
+    width: 100vw; 
+    height: auto;
+}
+
+.titles h2{
+    text-align: center;
+    color: #004173;
+    font-size: 22px;
+    margin-top: 13px;
+
+}
+    
+.titles h3{
+    text-align: center;
+    color: #004173;
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.comida{
+    position: absolute;
+    top: 40%;
+    left: 152%;
+    animation: comida 10s infinite linear;
+    display: flex;
+    margin-top: 10px;
+}
+
+@keyframes comida{
+    from{left: 152%;}
+    to{left: 62%;}
+}
+
+.comida img{
+    width: 90px;
+}
+
+.comida p{
+    font-size: 8px;
+}
+
+.comidav img{
+    width: 90px;
+}
+
+.comidav p{
+    font-size: 8px;
+}
+
+.comida0{
+    text-align: center;
+    margin-left: 14px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.comida0:hover{
+    opacity: 70%;
+}
+
+.comida0 p{
+   margin-top: 4px;
+}
+
+
+.comidav{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    animation: comidav 10s infinite linear;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+@keyframes comidav{
+    from{left: 0;}
+    to{left: -90%;}
+}
+
+.comidav0{
+    text-align: center;
+    margin-left: 14px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.comidav0:hover{
+    opacity: 70%;
+}
+
+.comidav0 p{
+   margin-top: 4px;
+}
+
+.nutrientes{
+    margin-top: 33px;
+    position: absolute;
+    display: flex;
+    animation: nutrientes 10s infinite linear;
+    right: 0%;
+}
+
+@keyframes nutrientes{
+    from{right: 0%;}
+    to{right:-90%}
+}
+
+.nutrientes img{
+    width: 90px;
+}
+
+.nutrientesp img{
+    width: 90px;
+}
+
+.nutrientesv img{
+    width: 90px;
+}
+
+.nutrientesb img{
+    width: 90px;
+}
+
+.nutrientes0{
+    margin-left: 13px;
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientes0:hover{
+    opacity: 70%;
+}
+
+.nutrientesv{
+    margin-top: 3px;
+    position: absolute;
+    font-size: 7px;
+    font-weight: bold;
+    display: flex;
+    animation: nutrientesv 10s infinite linear;
+    right: 10%;
+}
+
+@keyframes nutrientesv{
+    from{right: 10%;}
+    to{right:-80%;}
+}
+
+.nutrientesv0{
+    margin-left: 13px;
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesv0:hover{
+    opacity: 70%;
+}
+
+.nutrientesp{
+    margin-top: 33px;
+    display: flex;
+    position: absolute;
+    animation: nutrientesp 10s infinite linear;
+    right: 100%;
+}
+
+@keyframes nutrientesp{
+    from{right: 200%;}
+    to{right: 110%;}
+}
+
+.nutrientesp0{
+    margin-left: 13px;
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesp0:hover{
+    opacity: 70%;
+}
+
+.nutrientesb{
+    margin-top: 3px;
+    position: absolute;
+
+    font-size: 7px;
+    font-weight: bold;
+    display: flex;
+    animation: nutrientesb 10s infinite linear;
+    right: 110%;
+}
+
+@keyframes nutrientesb{
+    from{right: 210%;}
+    to{right: 120%;}
+}
+
+.nutrientesb0{
+    margin-left: 13px;
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.nutrientesb0:hover{
+    opacity: 70%;
+}
+
+
+.separador{
+    margin-top: 67px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    width: 100vw; 
+    height: auto;
+}
+
+.separador img{
+    width: 100%;
+    display:block;
+}
+
+/*THIRD PAGE*/
+
+.pagina3{
+    padding: 13px;
+    background: linear-gradient(#118D6E, #036B51);
+    overflow: hidden;
+    width: 100vw; 
+    height: auto;
+}
+
+.landingpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.text{
+    margin-top: 27px;
+    margin-left: 10px;
+}
+
+.text h2{
+    font-size: 30px;
+    color: #ffff;
+    margin-top: 16px;
+    line-height: 13px;
+    margin-bottom: 17px;
+}
+
+.text h5{
+    font-size: 30px;
+    color: #ffff;
+    line-height: 11px;
+}
+
+.text h3{
+    font-size: 11px;
+    color: #ffff;
+    margin-top: 13px;
+}
+
+.text h6{
+    font-size: 10px;
+    color: #ffff;
+}
+
+.text p{
+    font-size: 7px;
+    color: #ffff;
+    margin-top: 7px;
+}
+
+.text img{
+    width: 150px;
+}
+
+.text h4{
+    font-size: 10px;
+    color: #ffff;
+    margin-top: 20px;
+    font-style: italic;
+    border-radius: 17px;
+    background: linear-gradient(45deg, #AE759F, #8D597F);
+    text-align: center;
+    padding: 10px 1px 10px 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+h4 :hover{
+    font-size: 13px;
+    text-decoration: underline;
+    opacity: 60%;
+}
+
+.pack{
+    margin-left: 47px;
+    margin-top: 0px;
+}
+
+.pack img{
+    width: 225px;
+}
+
+
+/*FOURTH PAGE*/
+
+.pagina4{
+    background: linear-gradient(#AF4893, #AB739C);
+    padding: 13px;
+    height: 333px;
+    width: 100vw; 
+    min-height: 333px;
+}
+
+.pagina4 h3{
+    color:#ffff;
+    margin-left: 13px;
+    font-size: 22px;
+
+}
+
+.pagina4v{
+    position: relative;
+    min-height: 128px;
+    padding-top: 17px;
+    width: 100vw; 
+    height: auto;
+}
+
+.opinioes{
+    display:flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioes img{
+    border-radius: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    width: 110px;
+}
+
+.opinioes1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioes1 img{
+    border-radius: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0%;
+    width: 110px;
+}
+
+.opinioes1 :hover{
+    opacity: 100%;
+}
+
+.pagina4v1{
+    margin-top: 27px;
+    position: relative;
+    width: 100vw; 
+    height: auto;
+}
+
+.opinioesv{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioesv img{
+    border-radius: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    width: 110px;
+}
+
+.opinioesv1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.opinioesv1 img{
+    border-radius: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    width: 110px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0%;
+}
+
+.opinioesv1 :hover{
+    opacity: 100%;
+}
+
+/*FIFTH PAGE / FOOTER */
+
+.pagina5{
+    padding: 13px;
+    width: 100vw; 
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.marca{
+    margin-left: 10px;
+}
+
+.marca h3{
+    color: #ffff;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.marca p{
+    color:#ffff;
+    font-size: 7px;
+    font-weight: 33;
+    line-height: 10px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.socials img{
+    width: 17px;
+    margin-left: 13px;
+}
+
+}
